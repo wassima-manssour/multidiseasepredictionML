@@ -7,15 +7,15 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-heart_disease_model = pickle.load(open('C:/2023_insea/DataScience_Prjct/multiple disease prediction ML/saved_models/heart_model.sav','rb'))
+#heart_disease_model = pickle.load(open('C:/2023_insea/DataScience_Prjct/multiple disease prediction ML/saved_models/heart_model.sav','rb'))
+#diabetes_model = pickle.load(open('C:/2023_insea/DataScience_Prjct/multiple disease prediction ML/saved_models/diabets_model.sav', 'rb'))
+#parkinsons_model = pickle.load(open('C:/2023_insea/DataScience_Prjct/multiple disease prediction ML/saved_models/parkinson_model.sav', 'rb'))
 
+diabetes_model = pickle.load(open('diabets_model.sav', 'rb'))
 
+heart_disease_model = pickle.load(open('heart_model.sav', 'rb'))
 
-diabetes_model = pickle.load(open('C:/2023_insea/DataScience_Prjct/multiple disease prediction ML/saved_models/diabets_model.sav', 'rb'))
-
-
-parkinsons_model = pickle.load(open('C:/2023_insea/DataScience_Prjct/multiple disease prediction ML/saved_models/parkinson_model.sav', 'rb'))
-
+parkinsons_model = pickle.load(open('parkinson_model.sav', 'rb'))
 
 
 # sidebar for navigation
