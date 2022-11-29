@@ -61,16 +61,19 @@ Deployed Streamlit web app on Heroku, to predicti disease using Machine Learning
 <div>
 The used datasets are available on Kaggle.
 <br>
-
+<br>
 <div align="center"> 
   <img src="https://github.com/wassima-manssour/multidiseasepredictionML/blob/main/README-DiseasePrediction/heart-data.PNG" alt="screenshot" />
 </div>
-
+<br>
+ <br>
 
 <div align="center"> 
   <img src="https://github.com/wassima-manssour/multidiseasepredictionML/blob/main/README-DiseasePrediction/dibatic-data.PNG" alt="screenshot" />
 </div>
-
+<br>
+  
+ <br>
 <div align="center"> 
   <img src="https://github.com/wassima-manssour/multidiseasepredictionML/blob/main/README-DiseasePrediction/parkinson-data.PNG" alt="screenshot" />
 </div>
